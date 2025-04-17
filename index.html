@@ -4,22 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Potfolio</title>
-  <link rel="stylesheet" href="css.css" />
+  <link rel="stylesheet" href="csss.css" />
 </head>
 <body>
     <header class="header">
       <a href="#" class="logo">Potfolio</a>
+      <div class="burger" id="burger"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
       <nav class="sidebar" id="sidebar">
-        <div class="burger" id="burger">&#9776;</div>
         <ul>
-          <li><a href="#">Introduction</a></li>
+          <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+          <li><a href="#">Home </a></li>
+          <li><a href="#">About</a></li>
           <li><a href="#">Education</a></li>
           <li><a href="#">Achivements</a></li>
+          <li><a href="#">Skills</a></li>
           <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
         </ul>
       </nav>
-
-      <h1>Welcome to My Website</h1>
     </header>
 
     <section class="intro">
